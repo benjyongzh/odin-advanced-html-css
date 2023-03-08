@@ -1,0 +1,33 @@
+.container {
+    overflow: hidden;
+}
+
+p.first {
+    animation: 3s infinite alternate slidein;
+}
+
+@keyframes slidein {
+    from {
+        margin-left: 100%;
+        wdith: 300%;
+    }
+
+    to {
+        margin-left: 0%;
+        wdith: 100%;
+    }
+}
+/* 
+p.second {
+    animation: 3s infinite alternate slidein;
+}
+
+@keyframes slidein {
+    from {
+        transform: translate(500px);
+    }
+
+    to {
+        transform: translate(0px);
+    }
+} */
